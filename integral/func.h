@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
-double f(double x) {
-	return x * x;
+long double f(long double x) {
+	return x*x*x;
 }
